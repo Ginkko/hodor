@@ -30,3 +30,7 @@ body {
 .content-box {
  background-color: red;
 }
+
+img {
+  width: 100%;
+}
