@@ -3,7 +3,7 @@ body {
   background-image: url("../img/sexy-hodor.png");
   background-repeat: no-repeat;
   background-position: bottom left;
-}
+  font-family: 'Bad Script', cursive;}
 
 .panel
 {
@@ -24,6 +24,10 @@ body {
 img {
   max-width: 100%;
   max-height: 300px;
+}
+
+#navbarIcon {
+  max-height: 80px;
 }
 
 .content {
@@ -51,4 +55,8 @@ a:active {
 a:visited {
   text-decoration: none;
   color: black;
+}
+
+.hodor-nav:hover {
+  opacity: 0.8;
 }
