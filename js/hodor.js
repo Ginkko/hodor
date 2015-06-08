@@ -1,0 +1,1 @@
+Hodor = Ember.Application.create();

@@ -1,4 +1,32 @@
+
+
 /* Put your CSS here */
+
+body {
+
+  /*background-color: grey;*/
+}
+
+.panel
+{
+  margin: 10px;
+  background: rgba(248, 248, 248, 0.7);
+}
+
+
 .ember-application {
     margin: 20px;
+}
+
+.row {
+  height: 300px;
+}
+
+#master-panel {
+  width: 100%;
+  margin: 0px;
+}
+
+.content-box {
+ background-color: red;
 }
