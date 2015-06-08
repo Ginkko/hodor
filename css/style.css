@@ -21,11 +21,34 @@ body {
   margin: 0px;
 }
 
-.content-box {
- background-color: red;
-}
-
 img {
   max-width: 100%;
   max-height: 300px;
+}
+
+.content {
+  height: 500px;
+}
+.content:hover {
+  opacity: 0.8;
+}
+
+a:link{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
 }
