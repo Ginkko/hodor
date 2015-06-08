@@ -1,10 +1,8 @@
-
-
-/* Put your CSS here */
-
 body {
-  background-image: url("img/sexy-hodor.png")
-  /*background-color: grey;*/
+  background-color: black;
+  background-image: url("../img/sexy-hodor.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
 }
 
 .panel
@@ -17,10 +15,6 @@ body {
 .ember-application {
     margin: 20px;
 }
-
-/*.row {
-  max-height: 300px;
-}*/
 
 #master-panel {
   width: 100%;
@@ -35,7 +29,3 @@ img {
   max-width: 100%;
   max-height: 300px;
 }
-
-/*.col-sm-6 {
-  width: 45%;
-}*/
