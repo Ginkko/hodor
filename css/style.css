@@ -3,7 +3,7 @@
 /* Put your CSS here */
 
 body {
-
+  background-image: url("img/sexy-hodor.png")
   /*background-color: grey;*/
 }
 
@@ -18,9 +18,9 @@ body {
     margin: 20px;
 }
 
-.row {
-  height: 300px;
-}
+/*.row {
+  max-height: 300px;
+}*/
 
 #master-panel {
   width: 100%;
@@ -32,5 +32,10 @@ body {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
+  max-height: 300px;
 }
+
+/*.col-sm-6 {
+  width: 45%;
+}*/
